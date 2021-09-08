@@ -1,2 +1,2 @@
 # front
-Just to show people the challenges I've done.
+Just to show people the challenges I've done on frontend.io.
