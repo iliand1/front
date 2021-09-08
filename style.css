@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/pattern-background-desktop.svg");
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution{
+    font-size: 11px; 
+    position: relative;
+    top: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card{
+    margin: 0 auto;
+    margin-top: 80px;
+    background:white ;
+}
+.header{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.image img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 375px; 
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 600px;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px hsl(224, 23%, 55%);
+}
+.header__text{
+    margin: 0 auto;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 20px;
+    color: gray;
+   text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.annual-plan{
+    display: flex;
+    margin-top: 15px;
+    background-color: #f8f9fe;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    height: 80px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.annual-plan img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+.span__bold{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.annual-cost{
+    display: flex;
+    flex-direction: column;
+}
+.span__text{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: gray;
+}
+.span__change{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+    text-decoration:underline;
+    text-decoration-color: hsl(245, 75%, 52%);
+    position: relative;
+    left: 70px;
+}
+.proceed-button{
+    display: flex; 
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 30px hsl(224, 23%, 55%);
+}
+.cancel-button{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+}
