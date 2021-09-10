@@ -91,6 +91,10 @@ body{
     position: relative;
     left: 70px;
 }
+.span__change:hover{
+    color: hsl(245, 83%, 68%);
+    text-decoration: solid;
+}
 .proceed-button{
     display: flex; 
     font-family: 'Red Hat Display', sans-serif;
@@ -108,6 +112,9 @@ body{
     justify-content: center;
     box-shadow: 0 10px 30px hsl(224, 23%, 55%);
 }
+.proceed-button:hover{
+    background-color:hsl(245, 83%, 68%);
+}
 .cancel-button{
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
@@ -115,4 +122,13 @@ body{
     text-align: center;
     color: gray;
     margin-top: 30px;
+}
+.cancel-button:hover{
+    color: #232e45;
+}
+@media (max-width:414px) {
+    body{
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.HxO5iGPFLv9bB5jxGnReaQHaEo%26pid%3DApi&f=1");
+    }
+    
 }
