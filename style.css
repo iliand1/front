@@ -91,7 +91,7 @@ body{
     position: relative;
     left: 70px;
 }
-.span__change:hover{
+.span__change:hover,.span__change:active{
     color: hsl(245, 83%, 68%);
     text-decoration: solid;
 }
@@ -112,7 +112,7 @@ body{
     justify-content: center;
     box-shadow: 0 10px 30px hsl(224, 23%, 55%);
 }
-.proceed-button:hover{
+.proceed-button:hover,.proceed-button:active{
     background-color:hsl(245, 83%, 68%);
 }
 .cancel-button{
@@ -123,12 +123,23 @@ body{
     color: gray;
     margin-top: 30px;
 }
-.cancel-button:hover{
+.cancel-button:hover, .cancel-button:active{
     color: #232e45;
 }
 @media (max-width:414px) {
     body{
-        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.HxO5iGPFLv9bB5jxGnReaQHaEo%26pid%3DApi&f=1");
+        background-image: url("./images/pattern-background-mobile.svg");
     }
-    
+    .card{
+        width: 340px;
+    }
+    .image img{
+        width:340px;
+    }
+    .span__change{
+        left: 40px;
+    }
+    .header__text{
+        line-height: 1.5;
+    }
 }
